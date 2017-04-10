@@ -15,11 +15,7 @@ import csv
 
 import editdistance
 
-TEST_STRING = 'I am a test string!'
-OTHER_TEST_STRING = 'Yet another random string'
-ANOTHER_TEST_STRING = 'It is random'
-
-DATA_PATH = './development_data.csv'
+import settings
 
 
 def generate_strings(seed_string):
@@ -91,17 +87,18 @@ def load_data(data_path):
             print '\n'.join(['\nPair:', oov, full])
             print 'Levenshtein distance:', check_str_similarity(oov, full)
 
+# encode sentences using pre-trained embeddings
 
 class TestDataGenerator(unittest.TestCase):
     def test_generate(self):
-        for generated_str in generate_strings(TEST_STRING):
+        for generated_str in generate_strings(settings.TEST_STRING):
             print generated_str
 
     def test_load_data(self):
-        load_data(DATA_PATH)
+        load_data(settings.DATA_PATH)
 
     def test_check_str_similarity(self):
-        print check_str_similarity(TEST_STRING, ANOTHER_TEST_STRING)
+        print check_str_similarity(settings.TEST_STRING, settings.ANOTHER_TEST_STRING)
 
 
 if __name__ == '__main__':
