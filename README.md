@@ -34,12 +34,27 @@ The model has to tolerate the following corruptions in textual data by indicatin
 
 ## Related Work
 
+* Morphological Smoothing and Extrapolation of Word Embeddings
+
+* A joint many-task model: Growing a neural network for multiple NLP tasks. 2016
+
+* Robsut wrod reocginiton via semi-character recurrent neural network. 2017
+
+
 ### Text Similarity
 
 * CHARAGRAM: Embedding Words and Sentences via Character n-grams ACL 2016 (PDF)[https://aclweb.org/anthology/D16-1157]
 
+* A Simple but Tough-to-Beat Baseline for Sentence Embeddings. ICLR 2017
+
 ### Language Modeling
+
 * Character-Aware Neural Language Models (AAAI 2016) (Code)[https://github.com/yoonkim/lstm-char-cnn]
+
+* Generating text with recurrent neural networks. 2011
+
+* Multiplicative LSTM for sequence modelling
+
 
 ### Text Classification
 
@@ -53,3 +68,7 @@ The model has to tolerate the following corruptions in textual data by indicatin
 * Self-Taught Convolutional Neural Networks for Short Text Clustering
 
 * Short Text Clustering via Convolutional Neural Networks
+
+### Information Extraction
+
+* Deep learning for character-based information extraction. 2014
