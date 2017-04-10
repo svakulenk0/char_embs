@@ -17,3 +17,4 @@ DATA_PATH = './data/development_data.csv'
 # Common Crawl (840B tokens, 2.2M vocab, cased, 300d vectors, 2.03 GB download): glove.840B.300d.zip
 # https://nlp.stanford.edu/projects/glove/
 GLOVE_PATH = './data/glove.840B.300d.txt' # word vector file, can be downloaded from GloVe website
+GLOVE_SMALL_PATH = './data/glove.6B.50d.txt' # word vector file, can be downloaded from GloVe website
