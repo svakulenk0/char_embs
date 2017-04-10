@@ -12,6 +12,7 @@ Keep all shared variables here, e.g. test data and data paths
 TEST_STRING = 'I am a test string!'
 OTHER_TEST_STRING = 'Yet another random string'
 ANOTHER_TEST_STRING = 'It is random'
+VERY_DIFFERENT_TEST_STRING = 'camera looks great'
 
 DATA_PATH = './data/development_data.csv'
 # Common Crawl (840B tokens, 2.2M vocab, cased, 300d vectors, 2.03 GB download): glove.840B.300d.zip
