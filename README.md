@@ -32,6 +32,12 @@ The model has to tolerate the following corruptions in textual data by indicatin
 * reordering of substrings
 
 
+## Acknowledgements
+
+* (SIF)[]
+
+* (Francois Chollet. Using pre-trained word embeddings in a Keras model)[https://blog.keras.io/using-pre-trained-word-embeddings-in-a-keras-model.html]
+
 ## Related Work
 
 * Morphological Smoothing and Extrapolation of Word Embeddings
@@ -46,6 +52,8 @@ The model has to tolerate the following corruptions in textual data by indicatin
 * CHARAGRAM: Embedding Words and Sentences via Character n-grams ACL 2016 (PDF)[https://aclweb.org/anthology/D16-1157]
 
 * A Simple but Tough-to-Beat Baseline for Sentence Embeddings. ICLR 2017
+
+* Short Text Similarity with Word Embeddings. (PDF)[https://staff.fnwi.uva.nl/m.derijke/wp-content/papercite-data/pdf/kenter-short-2015.pdf]
 
 ### Language Modeling
 
@@ -72,3 +80,7 @@ The model has to tolerate the following corruptions in textual data by indicatin
 ### Information Extraction
 
 * Deep learning for character-based information extraction. 2014
+
+### Evaluation
+
+* Problems With Evaluation of Word Embeddings Using Word Similarity Tasks
