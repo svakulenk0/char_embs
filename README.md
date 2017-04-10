@@ -34,30 +34,32 @@ The model has to tolerate the following corruptions in textual data by indicatin
 
 ## Acknowledgements
 
-* (SIF)[]
+* [SIF][]
 
-* (Francois Chollet. Using pre-trained word embeddings in a Keras model)[https://blog.keras.io/using-pre-trained-word-embeddings-in-a-keras-model.html]
+* [Francois Chollet. Using pre-trained word embeddings in a Keras model][https://blog.keras.io/using-pre-trained-word-embeddings-in-a-keras-model.html]
+
+* [Christian S. Perone. Machine Learning :: Cosine Similarity for Vector Space Models][http://blog.christianperone.com/2013/09/machine-learning-cosine-similarity-for-vector-space-models-part-iii/]
 
 ## Related Work
 
 * Morphological Smoothing and Extrapolation of Word Embeddings
 
-* A joint many-task model: Growing a neural network for multiple NLP tasks. 2016
+* A joint many-task model: Growing a neural network for multiple NLP tasks. 2016 [PDF][https://arxiv.org/pdf/1611.01587.pdf][Code][https://github.com/rajarsheem/joint-many-task-model]
 
 * Robsut wrod reocginiton via semi-character recurrent neural network. 2017
 
 
 ### Text Similarity
 
-* CHARAGRAM: Embedding Words and Sentences via Character n-grams ACL 2016 (PDF)[https://aclweb.org/anthology/D16-1157]
+* CHARAGRAM: Embedding Words and Sentences via Character n-grams ACL 2016 [PDF][https://aclweb.org/anthology/D16-1157]
 
 * A Simple but Tough-to-Beat Baseline for Sentence Embeddings. ICLR 2017
 
-* Short Text Similarity with Word Embeddings. (PDF)[https://staff.fnwi.uva.nl/m.derijke/wp-content/papercite-data/pdf/kenter-short-2015.pdf]
+* Short Text Similarity with Word Embeddings. [PDF][https://staff.fnwi.uva.nl/m.derijke/wp-content/papercite-data/pdf/kenter-short-2015.pdf]
 
 ### Language Modeling
 
-* Character-Aware Neural Language Models (AAAI 2016) (Code)[https://github.com/yoonkim/lstm-char-cnn]
+* Character-Aware Neural Language Models (AAAI 2016) [Code][https://github.com/yoonkim/lstm-char-cnn]
 
 * Generating text with recurrent neural networks. 2011
 
@@ -67,7 +69,7 @@ The model has to tolerate the following corruptions in textual data by indicatin
 ### Text Classification
 
 * Character-level Convolutional Networks for Text Classification	nips		2015
-(PDF)[https://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classification.pdf]
+[PDF][https://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classification.pdf]
 
 ### Text Clustering
 
