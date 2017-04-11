@@ -1,0 +1,30 @@
+I am a test string	i am a test string
+I am a test string	I AM A TEST STRING
+I am a test string	Iamateststring
+I am a test string	I_am_a_test_string
+I am a test string	I am a test strin
+I am a test string	I am a test stringg
+I am a test strin	i am a test strin
+I am a test strin	I AM A TEST STRIN
+I am a test strin	Iamateststrin
+I am a test strin	I_am_a_test_strin
+I am a test strin	I am a test stri
+I am a test strin	I am a test strinn
+Yet another random string	yet another random string
+Yet another random string	YET ANOTHER RANDOM STRING
+Yet another random string	Yetanotherrandomstring
+Yet another random string	Yet_another_random_string
+Yet another random string	Yet another random strin
+Yet another random string	Yet another random stringg
+It is random	it is random
+It is random	IT IS RANDOM
+It is random	Itisrandom
+It is random	It_is_random
+It is random	It is rando
+It is random	It is randomm
+camera looks great	camera looks great
+camera looks great	CAMERA LOOKS GREAT
+camera looks great	cameralooksgreat
+camera looks great	camera_looks_great
+camera looks great	camera looks grea
+camera looks great	camera looks greatt

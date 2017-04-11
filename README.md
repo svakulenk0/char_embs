@@ -34,6 +34,73 @@ The model has to tolerate the following corruptions in textual data by indicatin
 * reordering of substrings
 
 
+## Baseline
+
+* FastText
+
+## Results
+
+* FastText requires tokens to be lower-cased
+
+Development data:
+
+
+TODO explore the threshold! generate negative samples!
+
+('I am a test string', 'camera looks great')
+similarity threshold on the unrelated strings: 0.75
+
+('I am a test string', 'I am a test strin')
+0.99
+('I am a test string', 'It is random')
+0.80
+('I am a test string', 'Iamateststring')
+0.86
+
+
+#wedontreadwords	we do not read words
+0.780289
+NUTS2	NUTS code
+0.769711
+LAU2_CODE	code
+0.856604
+LAU2_CODE	NUTS code
+0.757809
+LAU2_NAME	name
+0.850325
+INTERNAL_MIG_IMMIGRATION	internal immigration
+0.971787
+INTERNAL_MIG_IMMIGRATION	international immigration
+0.940776
+INTERNATIONAL_MIG_IMMIGRATION	international immigration
+0.990686
+INTERNATIONAL_MIG_IMMIGRATION	internal immigration
+0.878337
+IMMIGRATION_TOTAL	total immigration
+0.909382
+IMMIGRATION_TOTAL	total emigration
+0.875539
+INTERNAL_MIG_EMIGRATION	internal emigration
+0.974324
+INTERNAL_MIG_EMIGRATION	internal immigration
+0.955661
+INTERNATIONAL_MIG_EMIGRATION	international emigration
+0.989659
+INTERNATIONAL_MIG_EMIGRATION	international immigration
+0.973965
+EMIGRATION_TOTAL	total emigration
+0.918322
+EMIGRATION_TOTAL	total immigration
+0.900769
+
+Fail:
+#CMABRIGDEUINERVTISYEFECT	Cambridge university effect
+0.715672
+
+Average: 0.9 on positive examples excluding cambridge and year
+Average: 0.897551 on negative examples
+
+
 ## Acknowledgements
 
 * [SIF][]

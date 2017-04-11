@@ -1,0 +1,18 @@
+#wedontreadwords	we do not read words
+NUTS2	NUTS code
+LAU2_CODE	code
+LAU2_CODE	NUTS code
+LAU2_NAME	name
+INTERNAL_MIG_IMMIGRATION	internal immigration
+INTERNAL_MIG_IMMIGRATION	international immigration
+INTERNATIONAL_MIG_IMMIGRATION	international immigration
+INTERNATIONAL_MIG_IMMIGRATION	internal immigration
+IMMIGRATION_TOTAL	total immigration
+IMMIGRATION_TOTAL	total emigration
+INTERNAL_MIG_EMIGRATION	internal emigration
+INTERNAL_MIG_EMIGRATION	internal immigration
+INTERNATIONAL_MIG_EMIGRATION	international emigration
+INTERNATIONAL_MIG_EMIGRATION	international immigration
+EMIGRATION_TOTAL	total emigration
+EMIGRATION_TOTAL	total immigration
+EMIGRATION_TOTAL	immigration total

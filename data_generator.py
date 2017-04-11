@@ -20,7 +20,8 @@ import settings
 
 def generate_strings(seed_string):
     '''the first string in the output array is the original input string'''
-    generated_strings = [seed_string]
+    # generated_strings = [seed_string]
+    generated_strings = []
     # * upper/lower casing
     # change case: all up, all low
     generated_strings.append(seed_string.lower())
@@ -42,6 +43,17 @@ def generate_strings(seed_string):
     # * reordering of substrings
     # randomly reorder characters
     return generated_strings
+
+
+def generate_syntactic_similarity_corpus(seeds_path, results_path):
+    # read input file with seed strings
+    with open(seeds_path, 'r') as infile, open(results_path, 'w') as outfile:
+        for seed_string in infile:
+            # generate corrupted strings
+            # and write the string pairs into the output file
+            generated_strings = generate_strings(seed_string.strip())
+            print generated_strings
+            outfile.writelines([seed_string.strip()+'\t'+new_string+'\n' for new_string in generated_strings])
 
 
 def check_str_similarity(string1, string2):
@@ -102,4 +114,5 @@ class TestDataGenerator(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main()
+    # unittest.main()
+    generate_syntactic_similarity_corpus(settings.IN_FILE_PATH, settings.POS_SYNTACTIC_PAIRS_PATH)

@@ -1,0 +1,7 @@
+LAU2_CODE	NUTS code
+INTERNAL_MIG_IMMIGRATION	international immigration
+INTERNATIONAL_MIG_IMMIGRATION	internal immigration
+IMMIGRATION_TOTAL	total emigration
+INTERNAL_MIG_EMIGRATION	internal immigration
+INTERNATIONAL_MIG_EMIGRATION	international immigration
+EMIGRATION_TOTAL	total immigration
